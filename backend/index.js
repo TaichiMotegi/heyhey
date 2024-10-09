@@ -6,6 +6,7 @@ const { Server } = require("socket.io");
 const app = express();
 const server = createServer(app);
 const io = new Server(server);
+const data = [];
 
 app.get("/", (req, res) => {
   res.sendFile(join(__dirname, "index.html"));
@@ -13,6 +14,9 @@ app.get("/", (req, res) => {
 
 io.on("connection", (socket) => {
   socket.on("chat message", (msg) => {
+    data.push(msg);
+    console.log(data);
+
     io.emit("chat message", msg);
   });
 });
