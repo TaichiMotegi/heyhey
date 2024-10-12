@@ -6,7 +6,13 @@ module.exports = {
       "noto-regular": ["NotoSansJP_400Regular", "sans-serif"],
       "noto-bold": ["NotoSansJP_700Bold", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        blue: {
+          500: "#5271ff",
+        },
+      },
+    },
   },
   plugins: [],
 };
