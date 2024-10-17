@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "344111805124",
+    "project_id": "heyhey-24",
+    "storage_bucket": "heyhey-24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344111805124:android:db6347f40a4c3237504f91",
+        "android_client_info": {
+          "package_name": "com.galaxies.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344111805124-ps2cr88ke56ebdbbfqlh5j7gigs253u6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFrzb1MOE6OOwB4R9WP5y-Dr_W4fmdo_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344111805124-ps2cr88ke56ebdbbfqlh5j7gigs253u6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "344111805124-2m5u77r4sh7o1v8ibhb64frgpra1pb1g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "heyhey"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

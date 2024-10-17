@@ -18,6 +18,16 @@ export default function TabLayout() {
         name="profile"
         options={{
           title: "マイページ",
+          headerShown: true,
+          tabBarIcon: ({ color }) => (
+            <FontAwesome size={28} name="user" color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="signInPage"
+        options={{
+          title: "signin",
           headerShown: false,
           tabBarIcon: ({ color }) => (
             <FontAwesome size={28} name="user" color={color} />

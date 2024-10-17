@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>344111805124-tjn82s0kh9qi031b03hnjq4a6e6cfscf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.344111805124-tjn82s0kh9qi031b03hnjq4a6e6cfscf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBHzTIgmDhI3N2veJtuQJBKVOGFu92TMMk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>344111805124</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.galaxies.firebase</string>
+	<key>PROJECT_ID</key>
+	<string>heyhey-24</string>
+	<key>STORAGE_BUCKET</key>
+	<string>heyhey-24.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:344111805124:ios:ed43c9160b06b2aa504f91</string>
+</dict>
+</plist>
