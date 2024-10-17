@@ -27,7 +27,18 @@ export default function Index() {
     }
   };
 
-  const signIn = () => {};
+  const signIn = async () => {
+    setLoading(true);
+    try {
+      await auth().signInWithEmailAndPassword(email, password);
+      alert("check your email");
+    } catch (e: any) {
+      const err = e as FirebaseError;
+      alert("registration failed:" + err.message);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
     <View>
@@ -50,8 +61,8 @@ export default function Index() {
           <ActivityIndicator size={"small"} />
         ) : (
           <>
-            <Button onPress={signUp} title="Sign Up" />
-            <Button onPress={signIn} title="Sign In" />
+            <Button onPress={signIn} title="Login" />
+            <Button onPress={signUp} title="Create account" />
           </>
         )}
       </KeyboardAvoidingView>
