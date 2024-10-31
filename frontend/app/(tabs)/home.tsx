@@ -1,13 +1,8 @@
 import QRCode from "react-native-qrcode-svg";
 import React, { useState } from "react";
-import {
-  SafeAreaView,
-  View,
-  Text,
-  TouchableOpacity,
-  Button,
-} from "react-native";
+import { View, Text, TouchableOpacity, Button } from "react-native";
 import { CameraView, BarcodeScanningResult } from "expo-camera";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Tab() {
   const [isCameraActive, setIsCameraActive] = useState(false);
