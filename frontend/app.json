@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "frontend",
-    "slug": "frontend",
+    "slug": "heyhey",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -67,6 +67,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "44ea525a-55df-4bed-8007-a3d9241c687d"
+      }
+    },
+    "owner": "t-motegi",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/44ea525a-55df-4bed-8007-a3d9241c687d"
     }
   }
 }
